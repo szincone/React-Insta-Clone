@@ -32,8 +32,16 @@
   .searchBarLogoDiv span {
     display: none;
   }
-  .searchBarLogoDiv {
-    margin-left: 0;
+  .searchBarMainDiv form {
+    display: none;
+  }
+  .searchBarLinksDiv {
+    display: none;
+  }
+  .searchBarMainDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
   }
 }
 

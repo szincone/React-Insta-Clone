@@ -16,7 +16,7 @@ const SearchBarMainDiv = styled.div`
   justify-content: space-between;
   align-items: center;
   z-index: 1;
-  display: flex;
+  height: 60px;
 `;
 
 const SearchBarLogoDiv = styled.div`
