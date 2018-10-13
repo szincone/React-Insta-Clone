@@ -25,6 +25,18 @@
   position: relative;
   bottom: 5px;
 }
+@media (max-width: 990px) {
+  .searchBarLogoDiv i {
+    display: none;
+  }
+  .searchBarLogoDiv span {
+    display: none;
+  }
+  .searchBarLogoDiv {
+    margin-left: 0;
+  }
+}
+
 /* .searchBarLogoDiv span {
   position: relative;
   bottom: 7px;
