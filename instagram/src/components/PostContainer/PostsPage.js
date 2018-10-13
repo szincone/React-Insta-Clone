@@ -3,6 +3,9 @@ import React from "react";
 import SearchBar from "../SearchBar/SearchBar";
 import PostContainer from "./PostContainer";
 import dummyData from "./dummy-data";
+import styled from "styled-components";
+
+const PostPageAppWrapper = styled.div``;
 
 class PostsPage extends React.Component {
   constructor(props) {
@@ -14,19 +17,15 @@ class PostsPage extends React.Component {
   }
 
   componentDidMount() {
-    // let lsUsername = localStorage.getItem('username');
-    // if (lsUsername === 'Frank') {
-    //   this.setState({instaData: dummyData, loggedIn: true})
-    // }
-
     this.setState({ instaData: dummyData });
   }
+
   render() {
     return (
-      <div className="App">
+      <PostPageAppWrapper className="App">
         <SearchBar instagramData={this.state.instaData} />
         <PostContainer comments={this.state.instaData} />
-      </div>
+      </PostPageAppWrapper>
     );
   }
 }

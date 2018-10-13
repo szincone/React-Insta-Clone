@@ -41,13 +41,13 @@ const CommentLikes = styled.h4`
 `;
 const ListOfCommentsDiv = styled.div``;
 const TimeStampH4 = styled.h4`
-  font-size: 0.75rem !important;
+  font-size: 0.75rem;
   color: #aa9999;
   margin-left: 10px;
   margin-right: 10px;
   border-bottom: 1px solid lightgray;
   padding: 0 0.5rem 0.2rem 0.3rem;
-  margin-bottom: 0 !important;
+  margin-bottom: 0;
   margin-top: 0.5rem;
 `;
 const CommentDiv = styled.div`

@@ -7,13 +7,13 @@ const Authenticate = App =>
       super(props);
 
       this.state = {
-        loggedIn: false
+        loggedIn: true,
       };
     }
 
     handleLoginChange = event => {
       this.setState({
-        username: event.target.value
+        username: event.target.value,
       });
     };
 
@@ -22,10 +22,10 @@ const Authenticate = App =>
     };
 
     componentDidMount() {
-      let lsUsername = localStorage.getItem("username");
-      if (lsUsername === "Frank") {
-        this.setState({ loggedIn: true });
-      }
+      // let lsUsername = localStorage.getItem("username");
+      // if (lsUsername === "Frank") {
+      //   this.setState({ loggedIn: true });
+      // }
     }
 
     render() {
