@@ -16,6 +16,7 @@ const SearchBarMainDiv = styled.div`
   justify-content: space-between;
   align-items: center;
   z-index: 1;
+  display: flex;
 `;
 
 const SearchBarLogoDiv = styled.div`
@@ -71,7 +72,7 @@ class SearchBar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      comments: props.comments
+      comments: props.comments,
     };
   }
 
