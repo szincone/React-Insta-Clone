@@ -1,5 +1,8 @@
 # React-Insta-Clone
 
+## Live Version
+- Hosted version of the site can be seen here [live-version](https://szincone.github.io/React-Insta-Clone/)
+
 ## Introduction
 
 - The purpose of this project is to continue building on your knowledge of React that you have gained thus far.
