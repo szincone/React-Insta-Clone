@@ -1,12 +1,17 @@
 {
-  "main.css": "static/css/main.790f5509.css",
-  "main.css.map": "static/css/main.790f5509.css.map",
-  "main.js": "static/js/main.55ec8903.js",
-  "main.js.map": "static/js/main.55ec8903.js.map",
-  "static\\media\\fontawesome-webfont.eot": "static/media/fontawesome-webfont.674f50d2.eot",
-  "static\\media\\fontawesome-webfont.svg?v=4.7.0": "static/media/fontawesome-webfont.912ec66d.svg",
-  "static\\media\\fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
-  "static\\media\\fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
-  "static\\media\\fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
-  "static\\media\\instagramLogoText.png": "static/media/instagramLogoText.aa19e818.png"
+  "main.css": "/React-Insta-Clone/static/css/main.6b98a826.chunk.css",
+  "main.js": "/React-Insta-Clone/static/js/main.4ce5c51d.chunk.js",
+  "main.js.map": "/React-Insta-Clone/static/js/main.4ce5c51d.chunk.js.map",
+  "static/css/1.2487da96.chunk.css": "/React-Insta-Clone/static/css/1.2487da96.chunk.css",
+  "static/js/1.8aaddb3b.chunk.js": "/React-Insta-Clone/static/js/1.8aaddb3b.chunk.js",
+  "static/js/1.8aaddb3b.chunk.js.map": "/React-Insta-Clone/static/js/1.8aaddb3b.chunk.js.map",
+  "runtime~main.js": "/React-Insta-Clone/static/js/runtime~main.8bea3be1.js",
+  "runtime~main.js.map": "/React-Insta-Clone/static/js/runtime~main.8bea3be1.js.map",
+  "static/media/instagramLogoText.png": "/React-Insta-Clone/static/media/instagramLogoText.aa19e818.png",
+  "static/media/font-awesome.min.css": "/React-Insta-Clone/static/media/fontawesome-webfont.af7ae505.woff2",
+  "static/css/1.2487da96.chunk.css.map": "/React-Insta-Clone/static/css/1.2487da96.chunk.css.map",
+  "static/css/main.6b98a826.chunk.css.map": "/React-Insta-Clone/static/css/main.6b98a826.chunk.css.map",
+  "index.html": "/React-Insta-Clone/index.html",
+  "precache-manifest.51a092ec33dd7e188c67e84919b79d45.js": "/React-Insta-Clone/precache-manifest.51a092ec33dd7e188c67e84919b79d45.js",
+  "service-worker.js": "/React-Insta-Clone/service-worker.js"
 }
