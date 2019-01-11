@@ -73,7 +73,7 @@ class CommentSection extends React.Component {
       imageUrl: props.comment.imageUrl,
       likes: props.comment.likes,
       filteredComments: [],
-      timeSince: props.timeSince
+      timeSince: props.timeSince,
     };
   }
 
@@ -86,10 +86,10 @@ class CommentSection extends React.Component {
     let arrayOfComments = this.state.comments.slice();
     arrayOfComments.push({
       username: "Frank",
-      text: this.state.text
+      text: this.state.text,
     });
     this.setState({
-      comments: arrayOfComments
+      comments: arrayOfComments,
     });
   };
 
@@ -102,7 +102,7 @@ class CommentSection extends React.Component {
     let likesTotal = this.state.likes + (this.state.liked ? -1 : 1);
     this.setState({
       likes: likesTotal,
-      liked: !this.state.liked
+      liked: !this.state.liked,
     });
   };
 
@@ -129,7 +129,9 @@ class CommentSection extends React.Component {
         </FaPostDiv>
         <CommentLikes>{this.state.likes} likes</CommentLikes>
         <ListOfCommentsDiv className="listOfCommentsDiv">
-          {this.state.comments.map(comment => <Comments comment={comment} />)}
+          {this.state.comments.map(comment => (
+            <Comments comment={comment} />
+          ))}
         </ListOfCommentsDiv>
         {/* <h4 className="timeStamp">{this.state.comment.timestamp} DAYS AGO</h4> */}
         <TimeStampH4 className="timeStamp">
@@ -146,7 +148,7 @@ class CommentSection extends React.Component {
 }
 
 CommentSection.propTypes = {
-  comment: PropTypes.object
+  comment: PropTypes.object,
 };
 
 export default CommentSection;
